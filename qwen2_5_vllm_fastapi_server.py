@@ -63,7 +63,7 @@ if __name__ == '__main__':
     parser.add_argument("--port", type=int, default="8000")
     parser.add_argument("--quantization", type=str, default='AWQ')
     parser.add_argument("--model-dir", type=str,
-                        default="/root/autodl-tmp/qwen2.5-7b-instruct-awq")
+                        default="这里要修改为你的模型地址")
     args = parser.parse_args()
     '''
     2. 构建fastapi服务
